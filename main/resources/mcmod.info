@@ -1,0 +1,16 @@
+[
+{
+  "modid": "cm",
+  "name": "The Canadian Mod",
+  "description": "The Mod for Canadians",
+  "version": "{0.1}",
+  "mcversion": "${1.12}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["TheCanadian0417"],
+  "credits": "TheCanadian0417",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
