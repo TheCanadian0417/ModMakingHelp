@@ -11,15 +11,13 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 public class ClientProxy extends CommonProxy
 {
-	@EventHandler
+	@Override
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		super.preInit(event);
 		MinecraftForge.EVENT_BUS.register(this);
 	}
-	@EventHandler
-	
-	@SubscribeEvent
+	@Override
 	
 	
 	public void init(FMLInitializationEvent event)
@@ -27,7 +25,7 @@ public class ClientProxy extends CommonProxy
 		super.init(event);
 		RegistryHandler.Client();
 	}
-	@EventHandler
+	@Override
 	public void postInit(FMLPostInitializationEvent event)
 	{
 		super.postInit(event);

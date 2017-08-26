@@ -7,13 +7,11 @@ public class RegistryHandler
 {
 	public static void Client()
 	{	
-	ItemInit.register();	
+		ItemInit.register();
 	}
 	
 	public static void Common()
 	{
 		ItemInit.init();
-		ItemInit.register();
-		
 	}
 }
